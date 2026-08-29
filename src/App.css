@@ -1,0 +1,47 @@
+/* 全局补充样式 */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: #111110;
+}
+
+.kaiti {
+  font-family: "Kaiti SC", "STKaiti", "KaiTi", "楷体", "BiauKai", serif;
+}
+
+/* 视频外框：细边 + 微角，接近作品集 PDF 的静帧装裱感 */
+.frame {
+  border: 1px solid #2a2925;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px -30px rgba(0, 0, 0, 0.8);
+}
+
+.frame video,
+.frame iframe {
+  display: block;
+}
+
+::selection {
+  background: #b8442e;
+  color: #f2eee4;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111110;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2925;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a382f;
+}
