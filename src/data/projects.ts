@@ -15,7 +15,7 @@ export const mainProjects: Project[] = [
   {
     id: 'huaguzi',
     index: '01',
-    title: '《花姑子》概念短片',
+    title: 'AI 电影概念预告片《花姑子》',
     tags: ['AIGC', '视觉风格探索'],
     desc: '《聊斋·花姑子》改编概念测试短片。以多轮迭代的视觉风格文档约束 AIGC 图像资产的产出，保持全片画面风格一致。',
     videos: [{ type: 'file', src: 'videos/huaguzi.mp4', poster: 'posters/huaguzi.jpg' }],
